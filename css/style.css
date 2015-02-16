@@ -1,0 +1,160 @@
+body {
+  font-family:'Helvetica';
+  max-width:100%;
+  height:20000px;
+
+}
+
+h2 {
+  color:white;
+  font-family:'Helvetica';
+  padding-right:20px;
+  padding-left: 40px;
+  z-index: 1;
+
+}
+
+h2 a{
+    color:white;
+    text-decoration:none;
+    z-index: 1;
+
+  }
+
+h1 {
+  color:black;
+  font-family:'Helvetica';]
+  padding-right:20px;
+  padding-left: 40px;
+  z-index: 1;
+
+  }
+
+#navbar{
+  padding-right:50px;
+  position:fixed;
+  max-width:100%;
+  max-height:100%;
+  background-color:black;
+  z-index: 1;
+
+}
+
+#navbar a{
+  color:white;
+  text-decoration:none;
+  z-index: 1;
+}
+
+
+#navbar a:hover{
+  border-bottom:1px solid white;
+  z-index: 1;
+
+}
+
+#navbar a span{
+  visibility:hidden;
+  z-index: 1;
+}
+
+#navbar a:hover span{
+  visibility:visible;
+  z-index: 1;
+}
+
+#debrief{
+  padding-top: 200px;
+  margin: 80px;
+}
+
+#box {
+  Width:300px;
+  Height: auto;
+  box-shadow: 0px 0px 50px black;
+  position: fixed;
+  margin-left: 500px;
+  margin-top: 150px;
+  padding: 10px;
+  text-align: left;
+  z-index: 1;
+  background-color:white;
+}
+
+#box_audience {
+  Width:300px;
+  Height: auto;
+  box-shadow: 0px 0px 50px black;
+  position: fixed;
+  margin-left: 300px;
+  margin-top: 550px;
+  padding: 10px;
+  text-align: left;
+  z-index: 1;
+  background-color:white;
+}
+
+
+#box_goal {
+  Width:300px;
+  Height: auto;
+  box-shadow: 0px 0px 50px black;
+  position: fixed;
+  margin-left: 50px;
+  margin-top: 200px;
+  padding: 10px;
+  text-align: left;
+  z-index: 1;
+  background-color:white;
+}
+
+#box_background {
+  Width:300px;
+  Height: auto;
+  box-shadow: 0px 0px 50px black;
+  position: fixed;
+  margin-left: 700px;
+  margin-top: 400px;
+  padding: 10px;
+  text-align: left;
+  z-index: 1;
+  background-color:white;
+}
+
+#links {
+  Width:300px;
+  Height: auto;
+  box-shadow: 0px 0px 50px black;
+  position: fixed;
+  margin-left: 900px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: left;
+  z-index: 1;
+  background-color:white;
+  }
+
+  #box_why {
+    Width:300px;
+    Height: auto;
+    box-shadow: 0px 0px 50px black;
+    position: fixed;
+    margin-left: 1000px;
+    margin-top: 190px;
+    padding: 10px;
+    text-align: left;
+    z-index: 1;
+    background-color:white;
+  }
+
+#film {
+  position:absolute;
+  z-index:-1;
+  padding-left:900px;
+  margin-left:900px;
+}
+
+#inspiration {
+
+  z-index: -1;
+}
